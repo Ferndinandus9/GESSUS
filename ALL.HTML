@@ -55,3 +55,73 @@ Por ejemplo: <b>, <a>, <strong>, <img>, <input>, <em>, <span>, etc.
     Use el atributo de acción para apuntar a una página web que se cargará después de que el usuario envíe el formulario.
     <form action="http://www.sololearn.com">
 </form>
+
+HTML5 presenta siete modelos principales de contenido.
+
+- Metadata
+- Incrustado
+- Interactivo
+- Encabezado
+- Fraseo
+- Fluir
+- Seccionando
+
+Modelos de contenido
+
+Metadatos: contenido que configura la presentación o el comportamiento del resto del contenido. Estos elementos se encuentran en el encabezado del documento.
+Elementos: <base>, <link>, <meta>, <noscript>, <script>, <style>, <title>
+
+Embebido: contenido que importa otros recursos en el documento.
+Elementos: <audio>, <video>, <canvas>, <iframe>, <img>, <math>, <object>, <svg>
+
+Interactivo: contenido específicamente destinado a la interacción del usuario.
+Elementos: <a>, <audio>, <video>, <botón>, <detalles>, <embed>, <iframe>, <img>, <input>, <label>, <object>, <select>, <textarea>
+
+Encabezado: define un encabezado de sección.
+Elementos: <h1>, <h2>, <h3>, <h4>, <h5>, <h6>, <hgroup>
+
+Fraseo: este modelo tiene una serie de elementos de nivel en línea en común con HTML4.
+Elementos: <img>, <span>, <strong>, <etiqueta>, <br />, <pequeño>, <sub> y más.
+
+El mismo elemento puede pertenecer a más de un modelo de contenido.
+
+El elemento <nav>
+
+Esta etiqueta representa una sección de una página que vincula a otras páginas o a ciertas secciones dentro de la página. Esta sería una sección con enlaces de navegación.
+
+The <footer> Element
+The following information is usually provided between these tags:
+- Contact Information
+- Privacy Policy
+- Social Media Icons
+- Terms of Service
+- Copyright Information
+- Sitemap and Related Documents
+
+El elemento <section>
+
+<sección> es un contenedor lógico de la página o artículo.
+Las secciones se pueden usar para dividir contenido dentro de un artículo.
+Por ejemplo, una página de inicio podría tener una sección para presentar a la empresa, otra para noticias y otra para información de contacto.
+
+Cada <sección> debe identificarse, generalmente incluyendo un encabezado (elemento h1-h6) como elemento secundario del elemento <sección>.
+
+El elemento HTML5 <audio> especifica un estándar para incrustar audio en una página web.
+Audio en la Web
+
+Antes de HTML5, no había un estándar para reproducir archivos de audio en una página web.
+El elemento HTML5 <audio> especifica un estándar para incrustar audio en una página web.
+Hay dos formas diferentes de especificar la URL del archivo fuente de audio. El primero usa el atributo fuente:
+
+
+Working with Values
+
+The syntax for web storage for both local and session storage is very simple and similar.
+The data is stored as key/value pairs.
+
+Storing a Value: localStorage.setItem("key1", "value1");
+Getting a Value: //this will print the value
+alert(localStorage.getItem("key1"));
+Removing a Value: localStorage.removeItem("key1");
+Removing All Values: localStorage.clear();
+The same syntax applies to the session storage, with one difference: Instead of localStorage, sessionStorage is used.
